@@ -13,21 +13,21 @@ To write a program to find the maximum of a list of numbers.
 Program to find the square root for the given number(newton's method) using function.</br>
 Developed by: Suriya Pravin M</br>
 RegisterNumber : 212223230223</br></br>
-i)	# To find the maximum of marks using the list method sort.
+i)	# To find the maximum of marks using the list method sort.</br>
 ```Python
 def max_marks(array):
     array.sort()
     return array[-1]
 ```
 
-ii)	# To find the maximum marks using the list method max().
+ii)	# To find the maximum marks using the list method max().</br>
 ```Python
 def max_marks(array):
     return max(array)
 
 ```
 
-iii) # To find the maximum marks without using builtin functions.
+iii) # To find the maximum marks without using builtin functions.</br>
 ```Python
 def max_marks(array):
     max1=array[0]
